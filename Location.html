@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Walsh Diner...</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+        <!-- ========= Link to Main CSS File ============ -->
+        <link rel="stylesheet" type="text/css" href="Style.css" />
+    </head>
+    <body style="padding-top: 70px;">
+        <!-- ===================== START of Fixed NavBar Code ============================== -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+            <a class="navbar-brand active" href="Homepage.html"><img src="images/Walsh's Diner Contrast White 2 Cropped.png" alt="Walsh Diner Text Logo" width="100" height="auto" class="img-fluid" /></a>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="Breakfast.html">Breakfast</a> <a class="dropdown-item" href="Lunch.html">Lunch</a> <a class="dropdown-item" href="Dinner.html">Dinner</a>
+                            <a class="dropdown-item" href="Dessert.html">Dessert</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active-page" href="Location.html">Locations</a></li>
+                   <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCareers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Careers </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"><a class="dropdown-item" href="ApplyNow.html">Apply Now</a> <a class="dropdown-item" href="Working With Us.html">Working with Us</a></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- ========================= END of Fixed NavBar Code ============================== -->
+        <!--------------- START Website Logo ------------------>
+        <div id="page-container">
+            <div id="content-wrap">
+                <div class="grad-background-location">
+                    <div class="container-fluid">
+                        <br class="logo-line" />
+						<!-- Walsh Diner Logo Created by Great Value in Photoshop -->
+                        <img id="walsh logo" src="images/Walsh's Diner Logo Small.png" class="img-fluid" alt="Walsh Logo" />
+                        <br />
+                    </div>
+                    <!--------------- END Website Logo ------------------>
+                    <!-- Main Content of Web Page-->
+                    <div class="container px-xl-1">
+                        <div class="row gx-5">
+                            <div class="col">
+                                <div class="comb-container">
+                                    <div class="leftPanel">
+                                        <div class="addressSection">
+                                            <h4>Address:</h4>
+                                            <p>
+                                                11492 Sarcee Trail NW, Calgary, Alberta
+                                            </p>
+                                        </div>
+
+                                        <div class="operationTimeList">
+                                            <h4>Hours Of Operation:</h4>
+                                            <ul>
+                                                <li>
+                                                    M: 08:00 - 22:00
+                                                </li>
+                                                <li>
+                                                    T: 08:00 - 22:00
+                                                </li>
+                                                <li>
+                                                    W: 08:00 - 22:00
+                                                </li>
+                                                <li>
+                                                    R: 08:00 - 22:00
+                                                </li>
+                                                <li>
+                                                    F: 08:00 - 22:00
+                                                </li>
+                                                <li>
+                                                    S: 08:00 - 20:00
+                                                </li>
+                                                <li>
+                                                    U: 08:00 - 20:00
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="container-fluid">
+                                            <button class="custom-btn btn-13" type="button" onClick=" window.open('https://goo.gl/maps/r5GsmuY35MB46SvC8', '_blank'); return false;">
+                                                Directions
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="rightPanel">
+                                        <iframe class="gmap_canvas" src="https://maps.google.com/maps?q=11492%20Sarcee%20Trail%20NW,%20Calgary,%20AB%20T3R%200A1&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		<!-- ======================== START of Footer ============================= -->
+            <footer class="footer mt-auto py-3 footer-custom">
+                <!-- style="position: absolute; bottom: 0; width: 100%; height: auto;" -->
+                <div class="container">
+                    <hr class="footer-line" />
+                    <div class="group-names">
+                        <p><a>Matthew Smithson</a></p>
+                        <p><a>Kris Lugtu</a></p>
+                        <p><a>RC Magtulis</a></p>
+                        <p><a>Jason Wilson</a></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- ======================== END of Footer ============================= -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap-4.4.1.js"></script>
+    </body>
+</html>

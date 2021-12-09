@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Walsh Diner...</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+        <!-- ========= Link to Main CSS File ============ -->
+        <link rel="stylesheet" type="text/css" href="Style.css" />
+    </head>
+    <body style="padding-top: 70px;">
+       <!-- ===================== START of Fixed NavBar Code ============================== -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+            <a class="navbar-brand active" href="Homepage.html"><img src="images/Walsh's Diner Contrast White 2 Cropped.png" alt="Walsh Diner Text Logo" width="100" height="auto" class="img-fluid" /></a>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="Breakfast.html">Breakfast</a> <a class="dropdown-item" href="Lunch.html">Lunch</a> <a class="dropdown-item" href="Dinner.html">Dinner</a>
+                            <a class="dropdown-item" href="Dessert.html">Dessert</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Location.html">Locations</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCareers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Careers </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"><a class="dropdown-item active-page" href="ApplyNow.html">Apply Now</a> <a class="dropdown-item" href="Working With Us.html">Working with Us</a></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- ========================= END of Fixed NavBar Code ============================== -->
+        <!--------------- START Website Logo ------------------>
+        <div id="page-container">
+            <div id="content-wrap">
+				<div class="grad-background">
+                <div class="container-fluid">
+                    <br class="logo-line" />
+                    <img id="walsh logo" src="images/Walsh's Diner Logo Small.png" class="img-fluid" alt="Walsh Logo" />
+                    <br />
+                </div>
+                <!--------------- END Website Logo ------------------>
+                <div class="container-md">
+                    <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+                        <h3 class="mt-3 form-group">Personal Information</h3>
+                        <div class="form-group row mb-3">
+                            <label for="firstName" class="col-sm-2 col-form-label">First Name*</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="firstName" name="first-name" required />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lastName" class="col-sm-2 col-form-label">Last Name*</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="lastName" name="last-name" required />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email*</label>
+                            <div class="col-sm-10 themed-grid-col">
+                                <input type="email" class="form-control" id="inputEmail3" name="Email" required />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="phone" class="col-sm-2 col-form-label">Phone*</label>
+                            <div class="col-sm-10 themed-grid-col">
+                                <input type="tel" class="form-control" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="Phone" required />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">Position*</label>
+                            <div class="col-sm-10 themed-grid-col">
+                                <select class="col-sm form-control" name="Position">
+                                    <option value="" disabled selected>Choose..</option>
+                                    <option value="1">All</option>
+                                    <option value="2">Bartender</option>
+                                    <option value="3">Server</option>
+                                    <option value="4">Dishwasher</option>
+                                    <option value="5">Line Cook</option>
+                                    <option value="6">Preparation Cook</option>
+                                    <option value="7">Service Staff</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <hr class="my-4" />
+
+                        <h3 class="mt-2 form-group">Address</h3>
+                        <div class="form-row">
+                            <div class="col-md">
+                                <label class="col-form-label">Street*</label>
+                                <input type="text" class="form-control" name="Street" required />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-auto">
+                                <label class="col-form-label">Unit number</label>
+                                <input type="text" class="form-control" name="Unit"/>
+                            </div>
+                            <div class="col-md">
+                                <label class="col-form-label">City*</label>
+                                <input type="text" class="form-control" name="City" required />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-auto">
+                                <label class="col-form-label">Postal Code*</label>
+                                <input type="text" class="form-control" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" name="Postal-Code" required />
+                            </div>
+                            <div class="col-md">
+                                <label class="col-form-label">Province*</label>
+                                <select required class="col-sm form-control" name="Province">
+                                    <option value="0" disabled selected></option>
+                                    <option value="1">Alberta</option>
+                                    <option value="2">British Columbia</option>
+                                    <option value="3">Manitoba</option>
+                                    <option value="4">New Brunswick</option>
+                                    <option value="5">Newfoundland and Labrador</option>
+                                    <option value="6">Northwest Territories</option>
+                                    <option value="7">Nova Scotia</option>
+                                    <option value="8">Nunavut</option>
+                                    <option value="9">Ontario</option>
+                                    <option value="10">Prince Edward Island</option>
+                                    <option value="11">Quebec</option>
+                                    <option value="12">Saskatchewan</option>
+                                    <option value="13">Yukon</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-auto col-form-label">
+                            <div class="form-check mb-auto">
+                                <input class="form-check-input" type="checkbox" id="autoSizingCheck" name="Eligible" />
+                                <label class="form-check-label" for="autoSizingCheck">
+                                    I am legally entitled to work in Canada.*
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-bottom: 6rem;">
+                            <div class="col-auto">
+                                <button type="submit" value="Submit" class="button btn-13 custom-btn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+				</div>
+
+                <!-- ======================================================================= -->
+                <!-- --------------------------- END of CHANGABLE CODE --------------------- -->
+                <!-- ======================================================================= -->
+
+                <!-- ======================== START of Footer ============================= -->
+                <footer class="footer mt-auto py-3 footer-custom">
+                    <div class="container">
+                        <hr class="footer-line" />
+                        <div class="group-names">
+                            <p><a>Matthew Smithson</a></p>
+                            <p><a>Kris Lugtu</a></p>
+                            <p><a>RC Magtulis</a></p>
+                            <p><a>Jason Wilson</a></p>
+                        </div>
+                    </div>
+                </footer>
+                <!-- ======================== END of Footer ============================= -->
+            </div>
+        </div>
+        <!-- NO CODE BEYOND THIS POINT --><!-- NO CODE BEYOND THIS POINT --><!-- NO CODE BEYOND THIS POINT --><!-- NO CODE BEYOND THIS POINT --><!-- NO CODE BEYOND THIS POINT -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap-4.4.1.js"></script>
+    </body>
+</html>

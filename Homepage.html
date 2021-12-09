@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Walsh Diner Home</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="WalshDiner.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body style="padding-top: 70px;">
+        <!-- ===================== START of Fixed NavBar Code ============================== -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+            <a class="navbar-brand active" href="Homepage.html"><img src="images/Walsh's Diner Contrast White 2 Cropped.png" alt="Walsh Diner Text Logo" width="100" height="auto" class="img-fluid" /></a>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="Breakfast.html">Breakfast</a> <a class="dropdown-item" href="Lunch.html">Lunch</a> <a class="dropdown-item" href="Dinner.html">Dinner</a>
+                            <a class="dropdown-item" href="Dessert.html">Dessert</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Location.html">Locations</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCareers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Careers </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"><a class="dropdown-item" href="ApplyNow.html">Apply Now</a> <a class="dropdown-item" href="Working With Us.html">Working with Us</a></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- ========================= END of Fixed NavBar Code ============================== -->
+        <!--------------- START Website Logo ------------------>
+		<!-- Website Logo created by Great Value -->
+        <div id="page-container">
+            <div id="content-wrap">
+                <div class="container-fluid">
+                    <br class="logo-line" />
+					<!-- Walsh Diner Logo Created by Great Value in Photoshop -->
+                    <img id="walsh logo" src="images/Walsh's Diner Logo Small.png" class="img-fluid" alt="Walsh Logo" />
+                    <br />
+                </div>
+                <!--------------- END Website Logo ------------------>
+
+                <!--------------- START Website Banner ------------------>
+				<!-- Website Banner Created By Great Value via Photoshop
+				 Milkshake picture in banner "https://unsplash.com/photos/V8J2cM4fMDE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" -->
+                <div class="container-fluid">
+                    <div class="row-banner">
+                        <div class="col-lg-30">
+                            <img src="images/WalshBanner.jpg" class="img-fluid" alt="Walsh Diner Banner" />
+                        </div>
+                    </div>
+                </div>
+                <!--------------- END Website Banner ------------------>
+				
+                <!-- ========================= START of Grid Menu ========================= -->
+                <div class="container-fluid">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-4 col-lg-3 item">
+							<!-- Pancake Image: https://unsplash.com/photos/qp7WA8AV2x0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink -->
+                            <div class="box" style="background-image: url(images/pancakes.jpg);">
+                                <div class="cover" onClick="location.href='Breakfast.html';">
+                                    <h3 class="name">Breakfast</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 item">
+							<!-- Grilled Cheese Image: https://unsplash.com/photos/FZ5Rte9qs8Y?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink  -->
+                            <div class="box" style="background-image: url(images/david-thielen-FZ5Rte9qs8Y-unsplash.jpg);">
+                                <div class="cover" onClick="location.href='Lunch.html';">
+                                    <h3 class="name">Lunch</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-4 col-lg-3 item">
+							<!-- Hamburger's Image: https://unsplash.com/photos/FlmXvqlD-nI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink -->
+                            <div class="box" style="background-image: url(images/Three-Burgers.jpg);">
+                                <div class="cover" onClick="location.href='Dinner.html';">
+                                    <h3 class="name">Dinner</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 item">
+							<!-- Cheesecake Image: https://unsplash.com/photos/_BBTqanOrBI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink  -->
+                            <div class="box" style="background-image: url(images/kalisha-ocheni-_BBTqanOrBI-unsplash.jpg);">
+                                <div class="cover" onClick="location.href='Dessert.html';">
+                                    <h3 class="name">Dessert</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ======================== END OF Grid Menu =========================== -->
+
+            <!-- ======================== START of Footer ============================= -->
+        </div>
+        <footer class="footer mt-auto py-3 footer-custom">
+            <div class="container">
+                <hr class="footer-line" />
+                <div class="group-names">
+                    <p><a>Matthew Smithson</a></p>
+                    <p><a>Kris Lugtu</a></p>
+                    <p><a>RC Magtulis</a></p>
+                    <p><a>Jason Wilson</a></p>
+                </div>
+            </div>
+        </footer>
+        <!-- ======================== END of Footer ============================= -->
+
+        <!-- NO CODE BEYOND THIS POINT --><!-- NO CODE BEYOND THIS POINT --><!-- NO CODE BEYOND THIS POINT --><!-- NO CODE BEYOND THIS POINT --><!-- NO CODE BEYOND THIS POINT -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap-4.4.1.js"></script>
+    </body>
+</html>
