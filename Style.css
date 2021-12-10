@@ -195,14 +195,14 @@ box-shadow: 0 2px 3px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.15);
 
 .jumbotron {
 	/* American Diner Image: https://unsplash.com/photos/vjudHddBGDk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink */
-    background: url("images/spencer-davis-vjudHddBGDk-unsplash.jpg") no-repeat bottom;
+    background: url("images/spencer-davis-vjudHddBGDk-unsplash.webp") no-repeat bottom;
     background-size: cover;
     padding-top: 20%;
     padding-bottom: 5%;
 }
 .jumbotron-withus {
 	/* Kitchen Workers Image: https://unsplash.com/photos/1w5-s4Yw4IM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink */
-    background: url("images/spencer-davis-1w5-s4Yw4IM-unsplashnew.jpg") no-repeat bottom;
+    background: url("images/spencer-davis-1w5-s4Yw4IM-unsplashnew.webp") no-repeat bottom;
     background-size: cover;
      padding-top: 20%;
     padding-bottom: 5%;
